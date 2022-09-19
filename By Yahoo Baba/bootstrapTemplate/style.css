@@ -1,46 +1,85 @@
-a:hover{
+a:hover {
     text-decoration: none;
 }
-#header{
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section h2.section-head:after{
+    background:rgb(52, 167, 221) ;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#header {
     color: white;
     background: rgb(52, 167, 221);
 }
-#logo{
+
+#logo {
     margin: 5px auto;
 }
-#menu{
+
+#menu {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-#menu li{
-    display:inline-block;
+
+#menu li {
+    display: inline-block;
 }
 
-#menu li a{
+#menu li a {
     color: white;
     padding: 15px 20px;
-    display:block;
+    display: block;
     text-decoration: none;
-    font-size: 17px; 
+    font-size: 17px;
 }
 
-#menu li a:hover{
-    background-color:rgb(43, 136, 179) ;
+#menu li a:hover {
+    background-color: rgb(43, 136, 179);
 }
-#banner{
-    background: url('https://images.unsplash.com/photo-1459755486867-b55449bb39ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80') no-repeat 0 0 ;
+
+#banner {
+    background: url('https://images.unsplash.com/photo-1459755486867-b55449bb39ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80') no-repeat 0 0;
     background-size: cover;
 }
 
-.banner-title h1{
-    background: rgba(255, 255,255, 0.7);
+.banner-title {
+    padding-top: 4rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.7);
     display: inline-block;
     padding: 10px;
     margin: 0;
 }
 
-.banner-title p.lead{
+.banner-title p.lead {
     color: #fff;
-    background: rgba(52,167,221,05);
+    background: rgba(52, 167, 221, 05);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa-solid {
+    color: rgb(52, 167, 221);
+    font-size: 60px;
+    margin-bottom: 15px;
 }
