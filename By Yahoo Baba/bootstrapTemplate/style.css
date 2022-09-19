@@ -2,25 +2,26 @@ a:hover {
     text-decoration: none;
 }
 
-.section{
+.section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.section h2.section-head{
+.section h2.section-head {
     color: #000;
     text-align: center;
     margin-bottom: 35px;
 }
 
-.section h2.section-head:after{
-    background:rgb(52, 167, 221) ;
+.section h2.section-head:after {
+    background: rgb(52, 167, 221);
     content: "";
     display: block;
     width: 100px;
     height: 3px;
     margin: 20px auto;
 }
+
 #header {
     color: white;
     background: rgb(52, 167, 221);
@@ -82,4 +83,30 @@ a:hover {
     color: rgb(52, 167, 221);
     font-size: 60px;
     margin-bottom: 15px;
+}
+
+#testimonials{
+    color: #fff;
+    background: url('https://images.unsplash.com/photo-1587823172314-0dc50d65a707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80') no-repeat 0 0;
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+}
+
+.testimonial > img{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+#testimonials::before{
+    background: rgba(87, 83, 126,0.2) ;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#test{
+    color: rgb(238, 38, 38);
 }
