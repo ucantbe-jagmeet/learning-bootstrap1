@@ -1,0 +1,16 @@
+.container {
+    border:2px solid black;
+}
+
+.nav{
+    background: rgb(40, 160, 160);
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover, .nav-link.active{
+    background: pink;
+    color: #fff;
+}
